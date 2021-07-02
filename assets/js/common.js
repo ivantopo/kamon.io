@@ -29,16 +29,16 @@ function initScrollMainHeader() {
   
   var mainHeaderScrollListener = function() {
     if (isMainHeaderTransparent && window.pageYOffset >= HEADER_BACKGROUND_TRIGGER_SCROLL) {
-      mainHeader.classList.add("bg-white")
+      mainHeader.classList.add("bg-secondary")
       isMainHeaderTransparent = false
     } else if (!isMainHeaderTransparent && window.pageYOffset <= HEADER_BACKGROUND_TRIGGER_SCROLL) {
-      mainHeader.classList.remove("bg-white")
+      mainHeader.classList.remove("bg-secondary")
       isMainHeaderTransparent = true
     }
   }
 
   if(window.location.pathname.startsWith("/docs/")) {
-    mainHeader.classList.add("bg-white")
+    mainHeader.classList.add("bg-secondary")
   } else {
 
     document.addEventListener("scroll", mainHeaderScrollListener, { passive: true })
