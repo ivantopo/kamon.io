@@ -6,13 +6,15 @@ $theme-colors: (
   "lightest": $color-light-3,
   "danger": $color-red-0,
   "warning": $color-yellow-1,
-  "footer": $color-light-2
+  "footer": $color-light-2,
+  "dark-background": $color-dark-background
 );
 
 $btn-font-weight: $typography-weight-semi-bold;
 $btn-border-radius: remSize(8);
 $btn-border-radius-lg: remSize(12);
 $btn-border-radius-sm: remSize(12);
+$btn-font-size-lg: remSize(22);
 
 $link-color: $color-azure-radiance-main;
 $link-hover-color: $color-azure-radiance-darker;

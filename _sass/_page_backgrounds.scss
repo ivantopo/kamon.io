@@ -33,5 +33,7 @@ div[class^="background-top-"] {
 
 .dark-heading-simple-elements-background {
   background-image: url("/assets/img/background/dark-heading-simple-elements.svg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }

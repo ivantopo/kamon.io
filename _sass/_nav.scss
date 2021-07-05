@@ -95,13 +95,8 @@ a.nav-link {
   }
 }
 
-.navbar.bg-white {
-  border-bottom: 1px solid $color-light-1;
-}
-
 .navbar.mobile-expanded {
-  background-color: $color-dark-2;
-  //border-bottom: 1px solid $color-light-1;
+  background-color: $color-dark-background !important;
 }
 
 .notification-bar {
@@ -115,4 +110,3 @@ a.nav-link {
   border: none;
   @include rounded-elevation;
 }
-
